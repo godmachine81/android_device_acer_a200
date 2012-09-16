@@ -62,7 +62,7 @@ lib/libnvmm_video.so
 lib/libnvmm_vp6_video.so
 lib/libnvos.so
 lib/hw/gralloc.tegra.so
-lib/hw/lights.vangogh.so
+lib/hw/lights.picasso_e.so
 lib/hw/camera.tegra.so
 lib/hw/hwcomposer.tegra.so
 lib/hw/sensors.tegra.so

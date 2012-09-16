@@ -17,6 +17,8 @@
 # include acer t20 common
 include device/acer/t20-common/BoardConfigCommon.mk
 
+BOARD_USES_TINY_AUDIO_HW := true
+
 TARGET_BOOTLOADER_BOARD_NAME := picasso_e
 TARGET_OTA_ASSERT_DEVICE := picasso_e,a200
 
