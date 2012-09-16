@@ -26,6 +26,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/usr/idc/acer-touch.idc:system/usr/idc/acer-touch.idc \
     $(LOCAL_PATH)/prebuilt/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
 
+# tiny_hal
+PRODUCT_PACKAGES += audio.primary.picasso_e
+PRODUCT_COPY_FILES += $(LOCAL_PATH)/prebuilt/etc/sound/tiny_hw.xml:system/etc/sound/a200.xml
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 $(call inherit-product, build/target/product/full_base.mk)
